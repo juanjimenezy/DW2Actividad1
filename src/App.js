@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <CardGroup>
         {datos.map((e, i) => (
-          <TarjetaComonent Titulo={e.Titulo} Cuerpo={e.Cuerpo} img={e.img} contador={contador} />
+          <TarjetaComonent Titulo={e.Titulo} Cuerpo={e.Cuerpo} img={e.img} contador={contador} key={i} />
         ))}
       </CardGroup>
 
